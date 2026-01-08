@@ -367,3 +367,4 @@ class ArithmeticGame extends JFrame {
             case "*": correctAnswer = num1 * num2; break;
             case "/": while (num2 == 0) num2 = rand.nextInt(max - min + 1) + min; correctAnswer = num1 / num2; break;
             case "%": while (num2 == 0) num2 = rand.nextInt(max - min + 1) + min; correctAnswer = num1 % num2; break;
+
